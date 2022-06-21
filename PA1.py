@@ -39,8 +39,6 @@ class MainWindow(qtw.QMainWindow):
         self.ui.runAStarButton.clicked.connect(self.run_a_star)
         self.ui.stopastarButton.clicked.connect(self.stop_a_star_thread)
 
-
-
         self.ui.resetButton.clicked.connect(self.reset)
 
         self.ui.nextButton.setDisabled(True)

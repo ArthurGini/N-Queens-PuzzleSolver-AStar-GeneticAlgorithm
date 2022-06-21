@@ -150,6 +150,9 @@ class RunAStarAlgorithm:
         print(f'Solution = {curr_state}')
         print(f'Time taken = {time_taken} seconds')
 
+        for i in len(visited_states):
+            print(f'Visited states = {visited_states[i]}')
+
         return [steps, time_taken, goal_reached]
 
     @staticmethod
